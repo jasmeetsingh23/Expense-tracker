@@ -3,7 +3,10 @@ const colors = require('colors')
 
 const connectDb = async () => {
     try{
-        await mongoose.connect('mongodb://127.0.0.1:27017/expenseApp',{
+        await mongoose.connect('mongodb+srv://jasmeet_22:jassi%402201@cluster0.1rey2fg.mongodb.net/chat-gpt
+
+
+',{
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
